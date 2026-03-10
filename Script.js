@@ -1,7 +1,6 @@
 async function getQuote() {
 
- // const url = "https://animechan.xyz/api/random";
- const url = "https://api.animechan.io/v1/quotes/random";
+const url = "https://api.animechan.io/v1/quotes/random";
 
   try {
     const response = await fetch(url);

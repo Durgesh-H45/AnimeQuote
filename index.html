@@ -1,24 +1,25 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Anime Quote Generator</title>
-  <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <title>Anime Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1> Anime Quote Generator</h1>
+    <div class="container">
+      <div class="quote-card">
+        <h1>Anime Quote Generator</h1>
 
-  <div class="quote-card">
+        <p id="quote">Loading quote...</p>
+        <p id="character"></p>
+        <p id="anime"></p>
 
-    <p id="quote">Click the button to get a quote</p>
-    <h3 id="character"></h3>
-    <span id="anime"></span>
-  </div>
+        <button onclick="getQuote()">New Quote</button>
+      </div>
+    </div>
 
-  <button onclick="getQuote()">New Quote</button>
-</div>
+    <script src="script.js"></script>
 
-<script src="Script.js"></script>
 </body>
 </html>
