@@ -1,0 +1,42 @@
+body{
+  background-image: url("Anime\ Background.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.container{
+  text-align:center;
+}
+
+.quote-card{
+  background:#2b2b45;
+  padding:30px;
+  border-radius:15px;
+  width:400px;
+  margin:20px auto;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+#quote{
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+button{
+  padding:12px 25px;
+  border:none;
+  border-radius:8px;
+  background:#ff4c60;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#ff2e45;
+}
